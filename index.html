@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- @author Alessandra Bayot -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">   
+    <title> Reproductor de video - API HTML5</title>       
+</head>
+<body>     
+    <div id="player" class="player">
+        <h1>Reproductor de video</h1>
+        <h3>Cargar el video</h3>
+        <!-- BUSCADOR -->
+        <label for="file"></label>
+        <input type="file" class="select-video" id="file" name="file" accept="video/*">
+        <!-- VIDEO -->
+        <output id="outputvideo"></output>
+        <!-- BOTONES -->
+        <div id="controls" class="controls">
+            <button id="play" class="play" style="visibility: hidden;" title="Reproducir" >Reproducir</button>
+            <button id="pause" class="pause" style="visibility: hidden;" title="Pausa" >Pausa</button>
+            <button id="subir" class="subir" style="visibility: hidden;" title="Subir Volumen" >Subir Volumen</button>
+            <button id="bajar" class="bajar" style="visibility: hidden;" title="Bajar Volumen"> Bajar Volumen</button>
+        </div>
+    </div> 
+    <script type="text/javascript" src="index.js"></script> 
+</body>
+</html>
